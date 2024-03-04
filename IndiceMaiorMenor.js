@@ -24,3 +24,5 @@ const indices = encontrarIndicesMaiorMenor(numeros);
 
 console.log(`O índice do maior valor é: ${indices.indiceMaior}`);
 console.log(`O índice do menor valor é: ${indices.indiceMenor}`);
+
+module.exports = encontrarIndicesMaiorMenor;
